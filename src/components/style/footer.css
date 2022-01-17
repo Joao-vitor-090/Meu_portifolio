@@ -1,0 +1,24 @@
+:root{
+
+    --roxo-1-color: #7B4EE6; 
+    --azul-bacana-2-color: #4845CC; 
+    --azul-bacana-3-color: #638AFF; 
+    --roxo-e-azul-bacana-4-color: #468DCF; 
+    --roxo-e-azul-bacana-5-color: #4CC0E0;
+    --azul-fundo-do-site-color: #B0C4FF;
+    --footer-color:#ADACE8; 
+    
+     }
+Footer{
+    width: 100%;
+    height: 35px;
+    background-color:var(--footer-color) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}

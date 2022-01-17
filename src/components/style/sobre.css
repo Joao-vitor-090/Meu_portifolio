@@ -1,0 +1,62 @@
+:root{
+
+    --roxo-1-color: #7B4EE6; 
+    --azul-bacana-2-color: #4845CC; 
+    --azul-bacana-3-color: #638AFF; 
+    --roxo-e-azul-bacana-4-color: #468DCF; 
+    --roxo-e-azul-bacana-5-color: #4CC0E0;
+    --azul-fundo-do-site-color: #B0C4FF; 
+    
+     }
+.Pagina-sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    margin: 2em;
+    font-size: 50px;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bolder;
+}
+button{
+    width: 150px;
+    height: 25px;
+    margin: 2em;
+    padding: 1.5em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-style: none;
+    border: none;
+    box-shadow: 1px 1px 3px black;
+    background-color: var(--roxo-1-color);
+}
+button:hover{
+    color:  var(--roxo-1-color);
+    background-color: blanchedalmond;
+    transition: 1s;
+}
+article{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    width: 650px;
+    height: 200px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+}
+@media only screen and (max-width: 1200px){
+    article{
+        width: 95%;
+    }
+}

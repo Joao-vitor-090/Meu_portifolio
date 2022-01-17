@@ -1,0 +1,29 @@
+.Tecnologias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Fileiras{
+    text-align: center;
+    display: grid;
+    grid-column: auto auto;
+    grid-template-columns: 1fr 1fr;
+}
+label{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Logo{
+    margin: 5em;
+    height: 255px;
+}
+@media only screen and (max-width: 700px){
+    .Fileiras{
+        display: grid;
+        grid-column: auto auto;
+        grid-template-columns: 1fr;
+    }
+}
