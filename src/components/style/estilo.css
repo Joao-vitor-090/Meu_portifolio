@@ -22,6 +22,7 @@
     justify-content: space-between;
     position: fixed;
     bottom: 38em;
+    z-index: 9999;
 
 }
 
@@ -65,8 +66,16 @@
     border: 2px solid rgba(0, 0, 0, 0.678);
     background-color: white;
     font-size: 18px;
-
+    animation: mymove 1;
+    animation-duration: 3s;
+    position: relative;
 }
+
+@keyframes mymove {
+    from {right: 200px; background-color: black; color: white; }
+    to {right: 0px;background-color: white; color: black;}
+  }
+/* BodyFim */
 .Pintura{
     max-width: 200px;
     float: right;
@@ -117,9 +126,17 @@ p.FooterTxt{
         height: 4600px;
     }
     .Texto-apresentação{
+        margin-top: 1em;
         margin-bottom: 5em;
         width: 100%;
+        animation: mymove 1;
+        animation-duration: 2s;
+
     }
+    @keyframes mymove {
+        from {bottom: 200px;background-color: black; color: white;}
+        to {bottom: 0px;background-color: white; color: black;}
+      }
     Footer.Footer{
         height: 40px;
         background-image:linear-gradient(transparent, 

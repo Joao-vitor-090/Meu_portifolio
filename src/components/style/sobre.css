@@ -20,6 +20,7 @@ h1{
     color:white;
     text-shadow: 1px 1px 2px black;
     font-weight: bolder;
+    white-space: nowrap;
 }
 a.diretorio{
     text-decoration: none;
@@ -58,8 +59,15 @@ article{
     display: flex;
     align-items: center;
     border: 1px solid black;
+    animation: mymove 1;
+    position: relative;
+    animation-duration: 5s;
     
 }
+@keyframes mymove {
+    from {right: 200px; background-color: black; color: white; }
+    to {right: 0px;background-color: white; color: black;}
+  }
 article > p {
     font-weight: none;
     font-size: 17px;
