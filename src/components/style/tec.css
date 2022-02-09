@@ -1,8 +1,19 @@
+:root{
+
+    --roxo-1-color: #7B4EE6; 
+    --azul-bacana-2-color: #7978ce7e; 
+    --azul-bacana-3-color: #4e72df; 
+    --roxo-e-azul-bacana-4-color: #468DCF; 
+    --roxo-e-azul-bacana-5-color: #4CC0E0;
+    --azul-fundo-do-site-color: #7694eb; 
+    
+     }
 .Tecnologias{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: var(--azul-bacana-2-color);
 }
 .Fileiras{
     text-align: center;

@@ -12,7 +12,7 @@ class Sobre extends Component {
                         No momento estou estágiando com Web Designer e tenho o conhecimento de algumas tecnologias. Sendo elas HTML5,CSS3,JavaScript em Nível intermediário e PHP, Python, MySQL, PostgreSQL,GIT Microsoft Azure e React em Nível Básico. Baixe o meu currículo abaixo.
                     </p>
                 </article>
-                <a href="https://drive.google.com/file/d/1MJ6_uN-f7acUYLDYS0R7Mz9HGOFa-vrd/view?usp=sharing" >
+                <a href="https://drive.google.com/file/d/1MJ6_uN-f7acUYLDYS0R7Mz9HGOFa-vrd/view?usp=sharing" className="diretorio">
                     <button >
                         Baixar aqui
                     </button>

@@ -21,6 +21,9 @@ h1{
     text-shadow: 1px 1px 2px black;
     font-weight: bolder;
 }
+a.diretorio{
+    text-decoration: none;
+}
 button{
     width: 150px;
     height: 25px;
@@ -35,6 +38,7 @@ button{
     cursor: pointer;
     font-weight: bolder;
     font-style: none;
+    text-decoration: none;
     border: none;
     box-shadow: 1px 1px 3px black;
     background-color: var(--roxo-1-color);
@@ -46,14 +50,19 @@ button:hover{
 }
 article{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
     width: 650px;
     height: 200px;
-    text-align: center;
+    padding: 5px;
+    text-align: justify;
     background-color: white;
     display: flex;
     align-items: center;
-    border: 2px solid black;
+    border: 1px solid black;
+    
+}
+article > p {
+    font-weight: none;
+    font-size: 17px;
 }
 @media only screen and (max-width: 1200px){
     article{

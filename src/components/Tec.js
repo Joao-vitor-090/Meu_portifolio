@@ -16,28 +16,28 @@ class Tec extends Component {
     render(){
         return(
         <div className="Tecnologias">
-                    <h1>Tecnologias</h1>
+            <h1>Tecnologias</h1>
                 <div className="Fileiras">
                     <div className="dupla">
                         <div className="Logo">
-                            <img src = {html}/>
-                            <label>html</label>
+                                <img src = {html}/>
+                                <label>html</label>
+                    </div>
+                            <div className="Logo">
+                                <img src = {css}/>
+                                <label>CSS3</label>
                         </div>
-                        <div className="Logo">
-                            <img src = {css}/>
-                            <label>CSS3</label>
-                        </div>
-                     </div>
-                     <div className="dupla">
-                        <div className="Logo">
-                            <img src = {JS}/>
-                            <label>JavaScript</label>
-                        </div>
-                        <div className="Logo">
-                            <img src = {react}/>
-                            <label>React</label>
-                        </div>
-                     </div>
+                    </div>
+                            <div className="dupla">
+                                <div className="Logo">
+                                    <img src = {JS}/>
+                                    <label>JavaScript</label>
+                    </div>
+                            <div className="Logo">
+                                <img src = {react}/>
+                                <label>React</label>
+                            </div>
+                            </div>
                      <div className="dupla">
                         <div className="Logo">
                             <img src = {python}/>
@@ -48,11 +48,11 @@ class Tec extends Component {
                             <label>PHP</label>
                         </div>
                      </div>
-                     <div className="dupla">
-                        <div className="Logo">
-                            <img src = {mysql} />
-                            <label>MySQL</label>
-                        </div>
+                        <div className="dupla">
+                            <div className="Logo">
+                                <img src = {mysql} />
+                                <label>MySQL</label>
+                    </div>
                         <div className="Logo">
                             <img src = {postgresql} className="postgre"/>
                             <label>PostgreSQL</label>
